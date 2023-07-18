@@ -34,7 +34,8 @@ from typing import Callable as function
 import httpx
 import requests
 from httpx import AsyncClient
-from OpenAIAuth import Auth0 as Authenticator
+#from OpenAIAuth import Auth0 as Authenticator
+from OpenAIAuthWeb import Auth0 as Authenticator
 from rich.live import Live
 from rich.markdown import Markdown
 
